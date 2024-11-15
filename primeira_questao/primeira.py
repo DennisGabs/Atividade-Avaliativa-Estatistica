@@ -89,4 +89,9 @@ desvio_padrao(areas, media)
 ## item 3
 def q1(area, soma_total, frequencia_anterior):
     valor_temp = soma_total * 0.25
-    q1 = area[0] + (valor_temp - frequencia_anterior) / area[2] * (area[1] - area[0])
+    h = (area[1] - area[0])
+    q1 = area[0] + (valor_temp - frequencia_anterior) / area[2] * h
+    print("Q1 =", round(q1, 2))
+
+frequencia_ant = frequencia_anterior(areas, 2)
+q1(areas[2], soma_total, frequencia_ant)
