@@ -1,4 +1,4 @@
-import math
+import grafico
 import funcoes
 
 areas = [
@@ -68,3 +68,6 @@ funcoes.encontra_medidas(posicao_ideal, soma_total, 0.9, "P90")
 # fim P90
 
 ###### FIM DO ITEM 3 ######
+
+###### ITEM 4 ######
+grafico.monta_grafico(areas, 'número de lotes', 'áreas(m²)')
