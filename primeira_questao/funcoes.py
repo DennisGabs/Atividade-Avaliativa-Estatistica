@@ -49,15 +49,15 @@ def frequencia_anterior(areas, posicao_limite):
 def encontra_medidas(linha, soma_total, percentual, medida):
     valor_temp = soma_total * percentual
     h = (linha[1] - linha[0])
-    medida = linha[0] + (valor_temp - linha[-1]) / linha[2] * h
-    print(medida, "=", round(medida, 2))
+    valor = linha[0] + (valor_temp - linha[-1]) / linha[2] * h
+    print(medida, "=", round(valor, 2))
 
 
 def encontra_medidas_percentil(linha, soma_total, percentual, medida):
     valor_temp = soma_total * percentual
     h = (linha[1] - linha[0])
-    medida = linha[0] + (valor_temp - linha[-1]) / linha[2] * h
-    print(medida, "=", round(medida, 2))
+    valor = linha[0] + (valor_temp - linha[-1]) / linha[2] * h
+    print(medida, "=", round(valor, 2))
 
 ## Encontra a linha ideal na matriz de areas dado o percentual
 def posicao_ideal(areas, somatorio_total, percentual):
