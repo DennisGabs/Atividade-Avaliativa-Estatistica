@@ -57,9 +57,14 @@ posicao_ideal = funcoes.posicao_ideal(areas, soma_total, 0.7)
 funcoes.encontra_medidas(posicao_ideal, soma_total, 0.7, "D7")
 # fim D7
 
-# D7
+# P15
 posicao_ideal = funcoes.posicao_ideal(areas, soma_total, 0.15)
 funcoes.encontra_medidas(posicao_ideal, soma_total, 0.15, "P15")
-# fim D7
+# fim P15
+
+# P90
+posicao_ideal = funcoes.posicao_ideal(areas, soma_total, 0.9)
+funcoes.encontra_medidas(posicao_ideal, soma_total, 0.9, "P90")
+# fim P90
 
 ###### FIM DO ITEM 3 ######
