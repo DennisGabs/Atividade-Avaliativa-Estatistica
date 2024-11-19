@@ -27,7 +27,7 @@ funcoes.moda(areas[2], areas[3], areas[4])
 # mediana 
 soma_total = funcoes.somatorio(areas)
 posicao_ideal = funcoes.posicao_ideal(areas, soma_total, 0.5)
-funcoes.encontra_medidas(posicao_ideal, soma_total, 0.5, "MEDIANA")
+funcoes.encontra_medidas(posicao_ideal, soma_total, 0.5, "mediana")
 # fim mediana
 
 ###### FIM DO ITEM 1 ######
@@ -71,3 +71,4 @@ funcoes.encontra_medidas(posicao_ideal, soma_total, 0.9, "P90")
 
 ###### ITEM 4 ######
 grafico.monta_grafico(areas, 'número de lotes', 'áreas(m²)')
+###### FIM DO ITEM 4 ######
